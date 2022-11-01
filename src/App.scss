@@ -50,18 +50,16 @@ $font-weights: (
         right: 0;
         height: 100%;
         width: 100%;
-        background-color: $soft-blue;
+        background-color: hsl(178, 100%, 50%, 60%);
         opacity: 0;
         transition: 0.3s ease;
         cursor: pointer;
 
         &:hover {
-          opacity: 0.6;
+          opacity: 1;
         }
 
         .nft-preview-card__icon-view {
-          color: white;
-          font-size: 100px;
           position: absolute;
           top: 50%;
           left: 50%;
